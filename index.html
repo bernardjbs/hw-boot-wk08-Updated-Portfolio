@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
+
 <head>
   <meta charset='UTF-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -7,6 +8,7 @@
   <link rel='stylesheet' href='/src/style.css'>
   <title>Document</title>
 </head>
+
 <body>
   <nav id='nav'>
     <a href='#' id='nav-home'>Home</a>
@@ -14,23 +16,32 @@
     <a href='#experience' id='nav-experience'>Experience</a>
     <a href='#portfolio' id='nav-portfolio'>Portfolio</a>
     <a href='#contact' id='nav-contact'>Contact</a>
-    </nav>
-  <section class='header_socials'>
-    <a href='http://linkedin.com' target='_blank'>LinkedIn</a>
-    <a href='http://github.com/' target='_blank'>Github</a>
-  </section>
+  </nav>
+
   <section class='cta'>
     <a href='/assets/docs/cv.pdf' download class='btn'>Download CV</a>
     <a href='#contact' class='btn btn-primary'>Contact Me</a>
   </section>
   <section id='header' class='container header_container'>
 
+    <section class='header_socials'>
+      <a href='http://linkedin.com' target='_blank'>LinkedIn</a>
+      <a href='http://github.com/' target='_blank'>Github</a>
+    </section>
+
     <h1>Bernard Sin Fat</h1>
     <h5 class='text-light'>Fullstack Developer</h5>
-    <div class='me'>
-        <img class='image_me' src='/assets/img/repeat.jpg' alt='me' />
+    <div class='hero'>
+      <div id='code-repeat'>
+        <img class='image_hero' id='img-eat' src='/assets/img/eat.png' alt='me' />
+        <img class='image_hero' id='img-sleep' src='/assets/img/sleep.png' alt='me' />
+        <img class='image_hero' id='img-code' src='/assets/img/code.png' alt='me' />
+        <img class='image_hero' id='img-repeat' src='/assets/img/repeat.png' alt='me' />
+      </div>
+      <div class="on">
+        <img id='img-on' class='hero-off' src='/assets/img/on.png' alt='me' />
+      </div>
     </div>
-    <a href='#contact' class='scroll_down'>Scroll Down</a>
   </section>
 
   <section id='about'>
@@ -64,7 +75,16 @@
         </div>
 
         <p>
-          Full Stack Developer holding a Computer Science degree from ECU, a certificate in Full Stack development from UWA, and previous business owner with business management background. After graduation, I went back to Mauritius, my home country, to become a key player transforming our photography family business from analog to digital, at a crucial time when digital photography was phasing out film and negative. Also, successfully built a picture and art framing business from scratch as an extension to the main family business. Back to Perth, I am now a Chef at High on 55, a busy café situated on the iconic High Street in Fremantle. For the past few years, I have been helping them maintain a 5 star rating on TripAdvisor and Facebook, and a score of 4.7 on the Google rating. Determined to get back to the technology industry as a web developer, if you are looking for an organised, problem-solving and reliable person, hit me on the contact me button. I am looking forward to hear from you. 
+          Full Stack Developer holding a Computer Science degree from ECU, a certificate in Full Stack development from
+          UWA, and previous business owner with business management background. After graduation, I went back to
+          Mauritius, my home country, to become a key player transforming our photography family business from analog to
+          digital, at a crucial time when digital photography was phasing out film and negative. Also, successfully
+          built a picture and art framing business from scratch as an extension to the main family business. Back to
+          Perth, I am now a Chef at High on 55, a busy café situated on the iconic High Street in Fremantle. For the
+          past few years, I have been helping them maintain a 5 star rating on TripAdvisor and Facebook, and a score of
+          4.7 on the Google rating. Determined to get back to the technology industry as a web developer, if you are
+          looking for an organised, problem-solving and reliable person, hit me on the contact me button. I am looking
+          forward to hear from you.
         </p>
 
         <a href='#contact' class='btn btn-primary'>Contact Me</a>
@@ -169,7 +189,8 @@
         <small class='text-light'>A simple JavaScript code quiz app with multiple choice questions</small>
         <div class='portfolio_item-cta'>
           <a class='btn' href='https://github.com/bernardjbs/hw-boot-wk04-Quiz'>Github</a>
-          <a class='btn btn-primary' href='https://bernardjbs.github.io/hw-boot-wk04-Quiz/' target='_blank'>Live Demo</a>
+          <a class='btn btn-primary' href='https://bernardjbs.github.io/hw-boot-wk04-Quiz/' target='_blank'>Live
+            Demo</a>
         </div>
       </article>
 
@@ -181,7 +202,8 @@
         <small class='text-light'>Webpage application to give weather forecast for cities of your choice</small>
         <div class='portfolio_item-cta'>
           <a class='btn' href='https://github.com/bernardjbs/hw-boot-wk06-Weather-Dashboard'>Github</a>
-          <a class='btn btn-primary' href='https://bernardjbs.github.io/hw-boot-wk06-Weather-Dashboard/' target='_blank'>Live Demo</a>
+          <a class='btn btn-primary' href='https://bernardjbs.github.io/hw-boot-wk06-Weather-Dashboard/'
+            target='_blank'>Live Demo</a>
         </div>
       </article>
 
@@ -193,7 +215,8 @@
         <small class='text-light'>Generates password with strength according to user criteria</small>
         <div class='portfolio_item-cta'>
           <a class='btn' href='https://github.com/bernardjbs/hw-boot-wk03-Javascript-Password-Generator'>Github</a>
-          <a class='btn btn-primary' href='https://bernardjbs.github.io/hw-boot-wk03-Javascript-Password-Generator/' target='_blank'>Live Demo</a>
+          <a class='btn btn-primary' href='https://bernardjbs.github.io/hw-boot-wk03-Javascript-Password-Generator/'
+            target='_blank'>Live Demo</a>
         </div>
       </article>
 
@@ -221,7 +244,27 @@
         </div>
       </article>
     </div>
-  </section>  
+  </section>
+
+  <section id='contact'>
+    <h5>Let's Reach Out</h5>
+    <h2>Contact Me</h2>
+    <div class='container container_contact'>
+      <div class='contact_options'>
+        <article class='contact_option'>
+          <h4>Email</h4>
+          <h5>bernardjbs@yahoo.com</h5>
+          <a href='mailto:bernardjbs@yahoo.com'>Email me</a>
+        </article>
+        <article class='contact_option'>
+          <h4>Facebook</h4>
+          <h5>Messenger</h5>
+          <a href='https://m.me/bernardjbs' target='_blank'>Message me</a>
+        </article>
+      </div>
+    </div>
+  </section>
   <script src='/index.js'></script>
 </body>
+
 </html>

@@ -20,7 +20,7 @@
 .portfolio_item-image img{
   border-radius: 1.5rem;
   overflow: hidden;
-  filter: blur(2px) grayscale(100%);
+  filter: blur(1.5px) grayscale(100%);
   transition: var(--transition);
 }
 

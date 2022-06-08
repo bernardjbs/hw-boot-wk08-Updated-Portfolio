@@ -4,6 +4,7 @@
 @import 'about_me.css';
 @import 'experience.css';
 @import 'portfolio.css';
+@import 'contact.css';
 
 * {
   margin: 0;
