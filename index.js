@@ -1,6 +1,7 @@
 const navHomeEl = document.querySelector('#nav-home');
 const navAboutEl = document.querySelector('#nav-about');
 const navExperienceEl = document.querySelector('#nav-experience');
+const navPortfolioEl = document.querySelector('#nav-portfolio');
 const navContactEl = document.querySelector('#nav-contact');
 
 navHomeEl.addEventListener('click', () => {
@@ -12,6 +13,9 @@ navHomeEl.addEventListener('click', () => {
 
   navExperienceEl.style.color = 'rgba(255, 255, 255, 0.6)'
   navExperienceEl.style.background = 'rgba(0, 0, 0, 0.3)'
+
+  navPortfolioEl.style.color = 'rgba(255, 255, 255, 0.6)'
+  navPortfolioEl.style.background = 'rgba(0, 0, 0, 0.3)'
 
   navContactEl.style.color = 'rgba(255, 255, 255, 0.6)'
   navContactEl.style.background = 'rgba(0, 0, 0, 0.3)'
@@ -27,6 +31,9 @@ navAboutEl.addEventListener('click', () => {
   navExperienceEl.style.color = 'rgba(255, 255, 255, 0.6)'
   navExperienceEl.style.background = 'rgba(0, 0, 0, 0.3)'
 
+  navPortfolioEl.style.color = 'rgba(255, 255, 255, 0.6)'
+  navPortfolioEl.style.background = 'rgba(0, 0, 0, 0.3)'
+
   navContactEl.style.color = 'rgba(255, 255, 255, 0.6)'
   navContactEl.style.background = 'rgba(0, 0, 0, 0.3)'
 });
@@ -41,6 +48,26 @@ navExperienceEl.addEventListener('click', () => {
   navHomeEl.style.color = 'rgba(255, 255, 255, 0.6)'
   navHomeEl.style.background = 'rgba(0, 0, 0, 0.3)'
   
+  navPortfolioEl.style.color = 'rgba(255, 255, 255, 0.6)'
+  navPortfolioEl.style.background = 'rgba(0, 0, 0, 0.3)'
+
+  navContactEl.style.color = 'rgba(255, 255, 255, 0.6)'
+  navContactEl.style.background = 'rgba(0, 0, 0, 0.3)'
+});
+
+navPortfolioEl.addEventListener('click', () => {
+  navPortfolioEl.style.color = 'white';
+  navPortfolioEl.style.background = '#1f1f38';
+  
+  navAboutEl.style.color = 'rgba(255, 255, 255, 0.6)'
+  navAboutEl.style.background = 'rgba(0, 0, 0, 0.3)'
+
+  navHomeEl.style.color = 'rgba(255, 255, 255, 0.6)'
+  navHomeEl.style.background = 'rgba(0, 0, 0, 0.3)'
+  
+  navExperienceEl.style.color = 'rgba(255, 255, 255, 0.6)'
+  navExperienceEl.style.background = 'rgba(0, 0, 0, 0.3)'
+
   navContactEl.style.color = 'rgba(255, 255, 255, 0.6)'
   navContactEl.style.background = 'rgba(0, 0, 0, 0.3)'
 });
@@ -54,6 +81,9 @@ navContactEl.addEventListener('click', () => {
 
   navExperienceEl.style.color = 'rgba(255, 255, 255, 0.6)'
   navExperienceEl.style.background = 'rgba(0, 0, 0, 0.3)'
+
+  navPortfolioEl.style.color = 'rgba(255, 255, 255, 0.6)'
+  navPortfolioEl.style.background = 'rgba(0, 0, 0, 0.3)'
 
   navHomeEl.style.color = 'rgba(255, 255, 255, 0.6)'
   navHomeEl.style.background = 'rgba(0, 0, 0, 0.3)'
